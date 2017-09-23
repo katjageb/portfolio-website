@@ -1,0 +1,60 @@
+/*
+Colors used
+
+Primary Color (Blue): #6991AC;
+Secondary Color (Gray): #67727A;
+Background Color (Light blue): #C3D7DF;
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background-color: #C3D7DF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  line-height: 1.6; /* Sets the line height to 1.6 */
+}
+
+div {
+  padding: 10px; /* Adds a 10px inner spacing to all sides */
+  margin: 10px; /* Adds a 10px outer spacing to all sides */
+}
+
+a {
+  color: #6991AC;
+}
+
+a:visited { /* visited link */
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none; /* No underlining when hovering over a link */
+}
+
+a:focus {
+  text-decoration: none; /* Will be activated when an element is targeted by the keyboard */
+}
+
+a:active { /* selected link */
+  color: #489c79;
+}
+
+button {
+  /* overwrite the browser defaults */
+  border: none; /* resets the border */
+  font-family: inherit; /* takes the font from the outer container - the body */
+
+  /* style button */
+  background-color: #6991AC;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid #03474c; /* width of the border, type of border, color */
+}
+
+button:hover,
+button:focus {
+  cursor: pointer; /* let's the mouse appear as a hand when hovering over the button */
+  opacity: 0.8; /* reduces the opacity of the button to 80% */
+}
