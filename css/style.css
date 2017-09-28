@@ -154,3 +154,34 @@ button:focus {
     height: 40px;
   }
 }
+
+@keyframes color-change {
+  0% {fill: #EDC655;}
+  50% {fill: #f76414;}
+}
+
+@keyframes cloud-move {
+  from {transform: translate(-50px,10px);}
+  to {transform: translate(90px,10px);}
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(6px,38px);}
+  to {transform: translate(-50px,38px);}
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
