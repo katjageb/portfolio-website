@@ -50,7 +50,8 @@ a:active { /* selected link */
   color: #489c79;
 }
 
-button {
+button, /* Applies for buttons in a form*/
+.button { /* Applies for links with the button class */
   /* overwrite the browser defaults */
   border: none; /* resets the border */
   font-family: inherit; /* takes the font from the outer container - the body */
@@ -59,12 +60,16 @@ button {
   background-color: #6991AC;
   font-size: 16px;
   color: white;
+  text-decoration: none;
   padding: 10px;
   border-radius: 5px;
   border-bottom: 2px solid #03474c; /* width of the border, type of border, color */
+  transition: 0.5s opacity;
 }
 
 button:hover,
+.button:hover,
+
 button:focus {
   cursor: pointer; /* let's the mouse appear as a hand when hovering over the button */
   opacity: 0.8; /* reduces the opacity of the button to 80% */
@@ -159,7 +164,7 @@ button:focus {
 
 @keyframes cloud-move {
   from {transform: translate(-50px,10px);}
-  to {transform: translate(90px,10px);}
+  to {transform: translate(80px,10px);}
 }
 
 @keyframes cloud-move-reverse {
@@ -168,11 +173,11 @@ button:focus {
 }
 
 .cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
+  animation: 20s cloud-move infinite alternate linear;
 }
 
 .cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+  animation: 10s cloud-move-reverse infinite alternate linear;
 }
 
 .sun {
