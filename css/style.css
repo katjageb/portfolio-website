@@ -16,6 +16,10 @@ body {
   line-height: 1.6; /* Sets the line height to 1.6 */
 }
 
+nav {
+  float: right;
+}
+
 h1 {
   font-size: 30px; /* Overrides the 16px for a heading 1 with 30px */
   text-align: center; /* Centers text */
@@ -32,10 +36,6 @@ h3 {
 
 a {
   color: #6991AC;
-}
-
-a:visited { /* visited link */
-  color: blue;
 }
 
 a:hover {
@@ -84,7 +84,7 @@ button:focus {
 }
 
 .columns-container {
-  font-size: 0;
+  white-space: nowrap;
 }
 
 .column-4 {
@@ -104,8 +104,8 @@ button:focus {
 
 .navigation {
   list-style-type: none;
-  padding: 0;
-  float: right;
+  padding: 0 10px 0 0;
+  margin: 12.5px 0;
 }
 
 .navigation > li {
@@ -114,7 +114,6 @@ button:focus {
 }
 
 .logo {
-  height: 50px;
   width: 50px;
 }
 
@@ -131,13 +130,11 @@ button:focus {
 
 .top-bar {
   background-color: #C3D7DF;
-  height: 50px;
 }
 
 @media all and (max-width: 750px) {
   .logo {
     /* Make logo smaller by changing it's height */
-    height: 40px;
     width: 40px;
   }
   h1 {
