@@ -46,6 +46,7 @@ a {
 
 a:hover {
   text-decoration: none; /* No underlining when hovering over a link */
+  color: #F5F5F5;
 }
 
 a:focus {
@@ -61,6 +62,7 @@ button, /* Applies for buttons in a form*/
   /* overwrite the browser defaults */
   border: none; /* resets the border */
   font-family: inherit; /* takes the font from the outer container - the body */
+  display: inline-block;
 
   /* style button */
   background-color: #6991AC;
