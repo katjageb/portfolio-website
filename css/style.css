@@ -40,13 +40,13 @@ h3 {
 }
 
 a {
-  color: #F5F5F5;
+  color: #C3D7DF;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none; /* No underlining when hovering over a link */
-  color: #6991AC;
+  color: #D75C37;
 }
 
 a:focus {
@@ -91,7 +91,7 @@ button:focus {
 
 .wrapper {
   min-width: 360px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
   padding: 0 20px;
 }
@@ -144,11 +144,17 @@ button:focus {
 }
 
 .top-bar {
-  background-color: #67727A;
+  background-color: #6991AC;
+}
+.project-preview {
+  cursor: pointer;
 }
 
 .project-details {
   display: none;
+  padding: 10px;
+  border-style: solid;
+  border-width: thin;
 }
 
 @media all and (max-width: 750px) {
