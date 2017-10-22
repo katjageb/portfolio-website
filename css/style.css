@@ -40,13 +40,13 @@ h3 {
 }
 
 a {
-  color: #6991AC;
+  color: #F5F5F5;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none; /* No underlining when hovering over a link */
-  color: #F5F5F5;
+  color: #6991AC;
 }
 
 a:focus {
@@ -106,6 +106,8 @@ button:focus {
   display: inline-block;
   margin-right: 1%;
   text-align: center; /* Centers text */
+  white-space: normal;
+  vertical-align: top;
 }
 
 .column-1 {
@@ -142,7 +144,11 @@ button:focus {
 }
 
 .top-bar {
-  background-color: #C3D7DF;
+  background-color: #67727A;
+}
+
+.project-details {
+  display: none;
 }
 
 @media all and (max-width: 750px) {
