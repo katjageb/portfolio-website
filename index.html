@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="img/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <title> Katja Gebuhr | UX Designer</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="top-bar">
-        <img src="img/KgLogo.png" alt="logo" class="logo">
-        <nav>
-          <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <h1>Hi, my name is <b>Katja Gebuhr</b>. <span>I am a UX Designer from Southampton!</span></h1>
-      <div class="columns-container">
-        <div class="column-4">
-          <div class="project-preview">
-            <img src="img/TasklyWorkLogoA4.png" alt="Taskly" class="work-logo">
-            <p>Taskly</p>
-          </div>
-          <p class="project-details">
-            The Taskly project features all of the aspects of the world of design!
-            From Research to MockUps to Visual Design and the finished MVP ... <a href="work.html">read more</a>!
-          </p>
+
+<head>
+  <meta charset="utf-8">
+  <link href="img/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title> Katja Gebuhr | UX Designer</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <a href="index.html">
+          <img src="img/KatjaGebuhr_Logo1.png" alt="logo" class="logo">
+        </a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">My Work</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <img src="img/PageIntroPic_3.png" alt="Tate Modern" class="home-logo">
+    </div>
+    <div class="columns-container">
+      <div class="column-4 project">
+        <div class="project-preview">
+          <a href="safespace.html">
+            <img src="img/SafeSpaceWorkLogoA4.png" alt="SafeSpace" class="work-logo" id="safepsace">
+          </a>
+          <p>SafeSpace</p>
         </div>
-        <div class="column-4">
-          <div class="project-preview">
-            <img src="img/DublinBusWorkLogoA4.png" alt="Dublin Bus Service" class="work-logo">
-            <p>Dublin Bus</p>
-          </div>
-          <p class="project-details">
-            In a group of like-minded UX designers we explored the Public Transport in Dublin, interviewed people and designed a new way use Dublin Bus!</p>
+        <p class="project-details" id="safespace">
+          My first dive into the world of UX Design! Solving a problem with the help of User Persona, sketches on paper and my first MockUp using Marvel app
+          <a href="safespace.html">read more</a>.
+        </p>
+      </div>
+      <div class="column-4 project">
+        <div class="project-preview">
+          <img src="img/DublinBusWorkLogoA4.png" alt="Dublin Bus Service" class="work-logo">
+          <p>Dublin Bus</p>
         </div>
-        <div class="column-4">
-          <div class="project-preview">
-            <img src="img/SafeSpaceWorkLogoA4.png" alt="SafeSpace" class="work-logo">
-            <p>SafeSpace</p>
-          </div>
-          <p class="project-details">
-            My first dive into the world of UX Design! Solving a problem with the help of User Persona, sketches on paper and first MockUp using Marvel app.</p>
+        <p class="project-details" id="bus">
+          In a group of like-minded UX designers we explored the Public Transport in Dublin, interviewed people and designed a new way use Dublin Bus
+          <a href="busservice.html">read more</a>.
+        </p>
+      </div>
+      <div class="column-4 project">
+        <div class="project-preview">
+          <img src="img/TasklyWorkLogoA4.png" alt="Taskly" class="work-logo">
+          <p>Taskly</p>
         </div>
-        <div class="column-4">
-          <div class="project-preview">
-            <img src="img/CareScribeWorkLogoA4.png" alt="CareScribe" class="work-logo">
-            <p>CareScribe</p>
-          </div>
-          <p class="project-details">
-            I joined a StartUp in Winchester and designed their HealthCare app by creating interactive screens in UXPin and running interactive user tests.</p>
+        <p class="project-details">
+          The Taskly project features all of the aspects of the world of design! From Research to MockUps to Visual Design and the finished MVP ... read more!
+        </p>
+      </div>
+      <div class="column-4 project">
+        <div class="project-preview">
+          <img src="img/CareScribeWorkLogoA4.png" alt="CareScribe" class="work-logo">
+          <p>CareScribe</p>
         </div>
+        <p class="project-details">
+          I joined a StartUp in Winchester and designed their HealthCare app by creating interactive screens in UXPin and running interactive user tests.</p>
       </div>
     </div>
     <!-- start Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
-  </body>
+  </div>
+</body>
+
 </html>
