@@ -46,7 +46,6 @@ h3 {
 }
 
 p {
-  font-family: Verdana;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -90,7 +89,6 @@ button, /* Applies for buttons in a form*/
 
 button:hover,
 .button:hover,
-
 button:focus {
   cursor: pointer; /* let's the mouse appear as a hand when hovering over the button */
   opacity: 0.8; /* reduces the opacity of the button to 80% */
@@ -185,7 +183,7 @@ button:focus {
   display: block;
   height: 10%;
   width: 40%;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 10px auto;
 }
 
 .home-logo {
